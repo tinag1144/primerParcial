@@ -4,6 +4,8 @@ body {
   background-color: #f8f9fa;
 }
 
+
+
 /* ==== Navbar ==== */
 .navbar-nav .nav-link:hover {
   color: #ffc75f;
@@ -18,21 +20,26 @@ header h1 {
   font-weight: bold !important;
 }
 
-/* ==== Artículos ==== */
-article {
-  margin: 30px auto;
+/* ==== Lista del navegador ==== */
+.nav-item {
+  color: #fff;
+  list-style: none;
+  padding: 10px;
+
 }
 
-/* ==== Títulos y subtítulos ==== */
-article h2,
-article h3 {
-  color: #442c00;
+
+main{
+   margin: 30px auto;
+}
+
+main h2, main h3 {
+  color: #bb7a02;
   font-weight: bold;
 }
 
-/* ==== Labels ==== */
-article label {
-  color: #292421;
+main label {
+ color: #292421;
   font-size: 1rem;
 }
 
@@ -52,6 +59,7 @@ input.form-control {
 
 /* ==== Footer ==== */
 footer {
+  color: #fff;
   background-color: #212529;
   text-align: center;
   padding: 15px 0;

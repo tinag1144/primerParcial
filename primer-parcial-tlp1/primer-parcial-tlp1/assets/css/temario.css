@@ -2,11 +2,27 @@
 body {
   font-family: "Segoe UI", sans-serif;
   background-color: #f8f9fa;
+  
 }
 
+h2{
+  color: #7400a1;
+}
 /* ==== Navbar ==== */
-.navbar-nav .nav-link:hover {
-  color: #a600e7;
+
+.nav-item {
+  color: white;
+  list-style: none;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+}
+
+
+
+.nav-item:hover{
+  background-color: #7400a1;
+  border-radius: 20%;
+  color: #fff;
 }
 
 /* ==== Header ==== */
@@ -38,6 +54,8 @@ article p {
 
 /* ==== Botones ==== */
 .btn {
+  background-color: #7400a1!important;
+  color: #fff !important;
   border-radius: 20px;
   padding: 10px 25px;
   font-weight: bold;
@@ -46,6 +64,7 @@ article p {
 /* ==== Footer ==== */
 footer {
   background-color: #212529;
+  color: #fff;
   text-align: center;
   padding: 15px 0;
   margin-top: auto;
