@@ -13,15 +13,13 @@ h2{
 .nav-item {
   color: white;
   list-style: none;
-  padding: 8px 16px;
-  transition: background-color 0.3s;
+  padding: 1px 25px;
+  transition: background-color 0.3s ease;
 }
-
-
 
 .nav-item:hover{
   background-color: #7400a1;
-  border-radius: 20%;
+  border-radius: 20px;
   color: #fff;
 }
 
@@ -60,6 +58,8 @@ article p {
   padding: 10px 25px;
   font-weight: bold;
 }
+
+
 
 /* ==== Footer ==== */
 footer {

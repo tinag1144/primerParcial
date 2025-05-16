@@ -5,12 +5,6 @@ body {
 }
 
 
-
-/* ==== Navbar ==== */
-.navbar-nav .nav-link:hover {
-  color: #ffc75f;
-}
-
 /* ==== Header ==== */
 header {
   background-color: #bb7a02;
@@ -22,12 +16,17 @@ header h1 {
 
 /* ==== Lista del navegador ==== */
 .nav-item {
-  color: #fff;
+  color: white;
   list-style: none;
-  padding: 10px;
-
+  padding: 1px 25px;
+  transition: background-color 0.3s ease;
 }
 
+.nav-item:hover{
+  background-color: #bb7a02;
+  border-radius: 20px;
+  color: #fff;
+}
 
 main{
    margin: 30px auto;
@@ -52,6 +51,7 @@ input.form-control {
 
 /* ==== Botones ==== */
 .btn {
+  background-color: #bb7a02 !important;
   border-radius: 20px;
   padding: 10px 25px;
   font-weight: bold;
